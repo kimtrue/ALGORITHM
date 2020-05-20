@@ -10,16 +10,20 @@ public class Test4 {
 		Scanner sc = new Scanner(System.in);
 		int a;
 		int b;
+		String c;
 		a = sc.nextInt();
 		b = sc.nextInt();
 		
+		
 		if(a > b) {
-			System.out.println(a + ">" + b);
+			c = ">";
 		} else if ( a < b) {
-			System.out.println(a + "<" + b);
+			c = "<";
 		} else {
-			System.out.println(a + "=" + b);
+			c = "==";
 		}
+		System.out.println(c);
+		
 		*/
 		// 시험 성적을 입력받아서 등급을 출력하자
 		Scanner sc = new Scanner(System.in);
